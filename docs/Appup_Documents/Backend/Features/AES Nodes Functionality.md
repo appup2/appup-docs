@@ -25,7 +25,7 @@ get out of this node is an encrypted string of the filedata.
 
 Input to be provided: Filedata,Secret Key.
 
-![](media/image3.png){width="6.5in" height="3.6527777777777777in"}
+//image
 
 3)AES Decryption node: AES Decryption node is used to decrypt the
 encrypted string which we provide along with the secret key. The result
@@ -34,7 +34,7 @@ encrypted.
 
 Input to be provided: Filedata,Secret Key.
 
-![](media/image1.png){width="6.5in" height="3.6527777777777777in"}
+//image
 
 **Note: Secret Key should always be same while encrypting and decrypting
 the filedata.**
@@ -43,4 +43,4 @@ the filedata.**
 
 [*https://www.getpostman.com/collections/ef33f111970acd01ccda*](https://www.getpostman.com/collections/ef33f111970acd01ccda)
 
-**Video Links:**
+

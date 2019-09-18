@@ -23,4 +23,4 @@ files are deleted or not.
 
 **Screenshots**:
 
-![](media/image1.png){width="6.5in" height="3.6527777777777777in"}
+

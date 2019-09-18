@@ -121,7 +121,7 @@ To check the status of the publish.
 >
 > [*https://snag.gy/zXjFkA.jpg*](https://snag.gy/zXjFkA.jpg)
 >
-> ![](media/image4.png){width="6.5in" height="1.8194444444444444in"}
+> image
 
 1.  When ever it will take some time or having any issue to fetch
     > information from kubernetes it will show as “ Unable to fetch pods
@@ -131,20 +131,20 @@ https://snag.gy/zXjFkA.jpg
 
 -   [*https://snag.gy/ZlRQy0.jpg*](https://snag.gy/ZlRQy0.jpg)
 
-> ![](media/image2.png){width="6.5in" height="1.9444444444444444in"}
+> image
 
 2\. First do publish and then hit the publish status button. It will
 display message as “Running”.
 
 -   [*https://snag.gy/NknZrt.jpg*](https://snag.gy/NknZrt.jpg)
 
--   ![](media/image3.png){width="6.625in" height="1.8697922134733158in"}
+-   image
 
 3\. When ever it will take some time to fetch information from kubernetes
 it will show as pending and status as success.
 
 -   [*https://snag.gy/bN8uqA.jpg*](https://snag.gy/bN8uqA.jpg)
 
--   ![](media/image1.png){width="6.5in" height="2.0555555555555554in"}
+-   image
 
 
