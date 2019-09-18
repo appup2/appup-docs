@@ -4,7 +4,7 @@
 			- ActiveMQ
 				- [ActiveMQ](./Appup_Documents/Appup%20Backend/Features/ActiveMQ/ActiveMQ.md)
 			- Code JS plugin
-				- [Code JS Plugin](Appup_Documents/Appup%20Backend/Features/Code%20JS%20plugin/Code%20JS%20Plugin.md)
+				- [Code JS Plugin](https://github.com/appup2/appup-docs/tree/master/docs/Appup_Documents/Appup%20Backend/Features/Code%20JS%20plugin/Code%20JS%20Plugin.md)
 			- Cron
 				- [CRON (Enhancement)](./Appup_Documents/Appup%20Backend/Features/Cron/CRON%20%28Enhancement%29.md)
 				- [CRON](./Appup_Documents/Appup%20Backend/Features/Cron/CRON.md)
