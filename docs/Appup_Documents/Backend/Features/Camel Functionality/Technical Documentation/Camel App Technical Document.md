@@ -1,3 +1,6 @@
+
+![Components1](../../../../assets/Features_images/camel/Technical%20Documentation/Camel%20App%20Technical%20Document/image3.png)
+
 **Camel App:**
 
 **Functionality:**
