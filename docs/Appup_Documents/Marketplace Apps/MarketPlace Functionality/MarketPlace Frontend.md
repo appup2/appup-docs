@@ -25,20 +25,25 @@ be provided.
 **e)Is\_Secure,Is\_Writable:** Permissions we are providing in order to
 access the app by end user once they copy it from marketplace.
 
-![](media/image2.png){width="6.5in" height="3.6527777777777777in"}
+![Components 1](../../assets/Features_images/MarketPlace/MarketPlace%20Frontend/image2.png)
 
 Once all the details are provided click on the ‘Upload to Marketplace’
 button in order to place your app in the marketplace.
 
-![](media/image1.png){width="6.5in" height="3.6527777777777777in"}
+![Components 2](../../assets/Features_images/MarketPlace/MarketPlace%20Frontend/image1.png)
 
 2)To check this app in marketplace,goto ‘Add More Apps’ link and select
 ‘Get Apps’ link.
 
+
 3)All apps that are placed in marketplace is
-shown.![](media/image3.png){width="6.5in" height="3.6527777777777777in"}
+shown.
+
+![Components 3](../../assets/Features_images/MarketPlace/MarketPlace%20Frontend/image3.png)
 
 4)Select the app that you want to copy to your cloud by clicking on the
 ‘Copy’ button.
 
 5)App will get copied to your cloud.
+
+
