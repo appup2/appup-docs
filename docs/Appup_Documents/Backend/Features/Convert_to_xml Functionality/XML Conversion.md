@@ -12,6 +12,10 @@ required.
 
 **Screenshots:**
 
+![Components1](../../../assets/Features_images/convert_to_xml/XML%20Conversion/image1.png)
+
+
+![Components2](../../../assets/Features_images/convert_to_xml/XML%20Conversion/image2.png)
 
 
 **Postman Link:**
