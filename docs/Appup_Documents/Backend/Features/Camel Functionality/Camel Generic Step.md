@@ -1,3 +1,6 @@
+![Components1](../../../assets/Features_images/camel/Camel%20Generic%20Step/image2.png)
+
+
 
 **Camel Generic Step:**
 
@@ -104,6 +107,7 @@ CamelAwsS3BucketName=appup-bucket"**,
 
 }
 
+![Components2](../../../assets/Features_images/camel/Camel%20Generic%20Step/image4.png)
 
 
 **Executor Description:**
