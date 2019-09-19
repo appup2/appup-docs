@@ -50,9 +50,9 @@ to subscribe to mailgun account.
 
 Create an account in mailgun
 
-//image
 
-![Components 6](../../../assets/Features_images/MailGunCustomStep/image6.png)
+
+![Components 10](../../../assets/Features_images/MailGunCustomStep/image10.png)
 
 
 It will send an verification link to your mail id.Please login through
@@ -61,56 +61,56 @@ that link.
 It will ask your mobile verification.Please, provide a valid mobile
 number
 
-//image
 
-
-![Components 7](../../../assets/Features_images/MailGunCustomStep/image7.png)
-
-Login to mailgun account
-
-//image
 
 
 ![Components 8](../../../assets/Features_images/MailGunCustomStep/image8.png)
 
+Login to mailgun account
+
+
+
+
+![Components 6](../../../assets/Features_images/MailGunCustomStep/image6.png)
+
 Click on Domain for host and apikey
 
-//image
 
 
-![Components 9](../../../assets/Features_images/MailGunCustomStep/image9.png)
+
+![Components 11](../../../assets/Features_images/MailGunCustomStep/image11.png)
 
 Adding recipients
 
 Click on email validation
 
-//image
 
 
 
-![Components 10](../../../assets/Features_images/MailGunCustomStep/image10.png)
+
+![Components 14](../../../assets/Features_images/MailGunCustomStep/image14.png)
 
 click on upgrade it will redirect to a page click on invite new
 recipients
 
-//image
 
 
-![Components 11](../../../assets/Features_images/MailGunCustomStep/image11.png)
+
+![Components 15](../../../assets/Features_images/MailGunCustomStep/image15.png)
 Add respective emails here
 
-//image
 
-![Components 12](../../../assets/Features_images/MailGunCustomStep/image12.png)
+
+![Components 9](../../../assets/Features_images/MailGunCustomStep/image9.png)
 
 Here your mail is unverified . please login to your email which we added
 in maillist
 
-//images
 
 
-![Components 13](../../../assets/Features_images/MailGunCustomStep/image13.png)
-![Components 14](../../../assets/Features_images/MailGunCustomStep/image14.png)
+
+![Components 7](../../../assets/Features_images/MailGunCustomStep/image7.png)
+![Components 2](../../../assets/Features_images/MailGunCustomStep/image2.png)
 ![Components 15](../../../assets/Features_images/MailGunCustomStep/image15.png)
 
 Now your mail was verified. You can send mails to this verified mail id
@@ -130,11 +130,10 @@ App: mailgun
 
 Mailgun custom step node:
 
-//images
-![Components 1](../../../assets/Features_images/MailGunCustomStep/image1.png)
-![Components 2](../../../assets/Features_images/MailGunCustomStep/image2.png)
+
 ![Components 3](../../../assets/Features_images/MailGunCustomStep/image3.png)
 ![Components 4](../../../assets/Features_images/MailGunCustomStep/image4.png)
+
 
 
 
@@ -142,6 +141,8 @@ Mailgun custom step node:
 To verify the output run the published url in postman and then verify
 your mail.
 
-//image
+
+
+![Components 5](../../../assets/Features_images/MailGunCustomStep/image5.png)
 
 ![Components 5](../../../assets/Features_images/MailGunCustomStep/image5.png)
