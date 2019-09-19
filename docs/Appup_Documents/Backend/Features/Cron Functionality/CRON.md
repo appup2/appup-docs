@@ -34,6 +34,11 @@ Trigger Expression 6- Yearly
 
 **Screenshot Links:**
 
+![Components 1](../../../assets/Features_images/Cron/CRON/image1.png)
+
+![Components 2](../../../assets/Features_images/Cron/CRON/image2.png)
+
+![Components 3](../../../assets/Features_images/Cron/CRON/image3.png)
 
 
 **Cron Frontend:**
@@ -54,11 +59,16 @@ Syntax:
 {"args":"{}","headers":"{}","method":"POST","form":"{}","url":"RESTURL"}
 
 //image
+![Components 4](../../../assets/Features_images/Cron/CRON/image4.png)
+
 
 Different operations which we can perform are create cron,edit cron and
 delete cron.
 
 //image
+
+![Components 5](../../../assets/Features_images/Cron/CRON/image5.png)
+
 
 **Video Link:**
 
