@@ -29,15 +29,17 @@ Syntax: {{cloud.&lt;key&gt;}}
 
 Cloud properties can be used for a different app within the same cloud.
 
-**Screenshot: **
+
 
 applevel
 
 
+![Components1](../../../assets/Features_images/PluginTemplatization/image1.png)
+
 
 Cloud level
 
-
+![Components2](../../../assets/Features_images/PluginTemplatization/image2.png)
 
 **Video:**
 [*https://drive.google.com/file/d/1ShgoJ-NtI21H12bAUU3nG-ZP4Lskomqi/view*](https://drive.google.com/file/d/1ShgoJ-NtI21H12bAUU3nG-ZP4Lskomqi/view)
