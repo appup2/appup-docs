@@ -21,6 +21,6 @@ commas.
 4)Once the application is published check in amazon s3 to check whether
 files are deleted or not.
 
-**Screenshots**:
+![Components1](../../assets/Features_images/S3%20MULTIPLE%20FILE%20DELETE/image1.png)
 
 
