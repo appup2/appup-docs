@@ -1,4 +1,8 @@
 
+![Components1](../../../../assets/Features_images/camel/Technical%20Documentation/Apache%20Camel%20Understanding/image1.png)
+
+
+
 **Apache Camel:**
 
 Apache Camel is an open-source integration framework based on known
