@@ -1,3 +1,6 @@
+![Components1](../../../../assets/Features_images/camel/Technical%20Documentation/Camel%20App%20Deployment%20Process/image1.png)
+
+
 
 **Camel App Deployment Process:**
 
@@ -29,7 +32,7 @@ After restarting , docker image will push to qa
 Once docker image is pushed we will see which we created docker image
 tag in the docker image tag list publish screen. Like below.
 
-//image insert
+![Components2](../../../../assets/Features_images/camel/Technical%20Documentation/Camel%20App%20Deployment%20Process/image4.png)
 
 After docker image is pushed to QA, we can use camel step to create a
 camel app and need to publish in the camel docker.
