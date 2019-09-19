@@ -61,4 +61,12 @@ added.
 
 Please check the below screenshots for reference:
 
-![Components 1](../../../assets/Features_images/AES%20Nodes%20Functionality/image1.png)
+![Components 1](../../../assets/Features_images/ActiveMQ/image1.png)
+![Components 2](../../../assets/Features_images/ActiveMQ/image2.png)
+![Components 3](../../../assets/Features_images/ActiveMQ/image3.png)
+![Components 4](../../../assets/Features_images/ActiveMQ/image4.png)
+![Components 5](../../../assets/Features_images/ActiveMQ/image5.png)
+![Components 6](../../../assets/Features_images/ActiveMQ/image6.png)
+![Components 7](../../../assets/Features_images/ActiveMQ/image7.png)
+![Components 8](../../../assets/Features_images/ActiveMQ/image8.png)
+![Components 9](../../../assets/Features_images/ActiveMQ/image9.png)
