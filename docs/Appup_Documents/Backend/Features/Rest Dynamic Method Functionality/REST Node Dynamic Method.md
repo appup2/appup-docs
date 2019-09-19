@@ -91,24 +91,31 @@
 1.  In postman we have to provide Authorization value by using key as
     > value in headers
 
-2.  //image
+2. 
+
+![Components1](../../../assets/Features_images/REST%20DYNAMIC%20METHOD/image4.png)
 
 Here output will be your raw body
 
-//image
+![Components2](../../../assets/Features_images/REST%20DYNAMIC%20METHOD/image3.png)
 
 1.  We can find this node in Utilities.
 
-2.  //image
+2. 
+
+![Components3](../../../assets/Features_images/REST%20DYNAMIC%20METHOD/image2.png)
 
 1.  Step image -
-    //image
-
+    
+    ![Components4](../../../assets/Features_images/REST%20DYNAMIC%20METHOD/image1.png)
+    
 1.  We can provide token values in headers by using key as Authorization
     > and also we can send value dynamically by using
     > {{request.body.&lt;value&gt;}}
 
-2.  //image
+2.  
+
+![Components5](../../../assets/Features_images/REST%20DYNAMIC%20METHOD/image5.png)
 
 **Postman Collections: **
 
