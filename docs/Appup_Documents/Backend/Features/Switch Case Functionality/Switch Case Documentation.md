@@ -8,6 +8,13 @@ executed.
 
 **Screenshots:**
 
+![Components1](../../../assets/Features_images/Switch%20Case/image1.png)
+
+
+![Components2](../../../assets/Features_images/Switch%20Case/image2.png)
+
+
+![Components3](../../../assets/Features_images/Switch%20Case/image3.png)
 
 
 Postman Link:
