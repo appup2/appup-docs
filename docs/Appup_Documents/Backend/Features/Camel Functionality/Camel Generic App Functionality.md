@@ -1,5 +1,8 @@
-![](media/image3.png){width="4.390625546806649in"
-height="1.8151716972878391in"}
+![Components1](../../../assets/Features_images/camel/Camel%20Generic%20App%20Functionality/image3.png)
+
+
+
+
 
 **APP in AppUp**
 
@@ -63,19 +66,15 @@ overridden by providing header values.
 
 **Screenshots:**
 
-[***https://i.imgur.com/sBFKWEu.png***](https://i.imgur.com/sBFKWEu.png)
 
-[***https://i.imgur.com/G6yrezW.png***](https://i.imgur.com/G6yrezW.png)
+![Components2](../../../assets/Features_images/camel/Camel%20Generic%20App%20Functionality/image4.png)
 
-[***https://i.imgur.com/WnZ1tGr.png***](https://i.imgur.com/WnZ1tGr.png)
 
-[***https://i.imgur.com/eUSyBa9.png***](https://i.imgur.com/eUSyBa9.png)
+![Components3](../../../assets/Features_images/camel/Camel%20Generic%20App%20Functionality/image5.png)
 
-![](media/image5.png){width="6.5in" height="3.6527777777777777in"}
 
-![](media/image4.png){width="6.5in" height="3.6527777777777777in"}
+![Components4](../../../assets/Features_images/camel/Camel%20Generic%20App%20Functionality/image6.png)
 
-![](media/image6.png){width="6.5in" height="3.6527777777777777in"}
 
 **Reference Document:**
 
