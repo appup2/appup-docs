@@ -61,4 +61,4 @@ added.
 
 Please check the below screenshots for reference:
 
-![Components 1] (appup-docs/docs/Appup_Documents/assets/Features_images/AES Nodes Functionality/image1.png)
+![Components 1](../../../assets/Features_images/AES%20Nodes%20Functionality/image1.png)
