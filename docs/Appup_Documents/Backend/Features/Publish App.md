@@ -118,33 +118,25 @@ To check the status of the publish.
 1.  Press the “Publish Status” before publishing an app.
 
 > It will show an error and status as failure.
->
-> [*https://snag.gy/zXjFkA.jpg*](https://snag.gy/zXjFkA.jpg)
->
-> image
 
-1.  When ever it will take some time or having any issue to fetch
+
+![Components1](../../assets/Features_images/Publish%20App/image4.png)
+
+
+2.  When ever it will take some time or having any issue to fetch
     > information from kubernetes it will show as “ Unable to fetch pods
     > status”.
 
-https://snag.gy/zXjFkA.jpg
 
--   [*https://snag.gy/ZlRQy0.jpg*](https://snag.gy/ZlRQy0.jpg)
+![Components2](../../assets/Features_images/Publish%20App/image2.png)
 
-> image
 
-2\. First do publish and then hit the publish status button. It will
+3. First do publish and then hit the publish status button. It will
 display message as “Running”.
 
--   [*https://snag.gy/NknZrt.jpg*](https://snag.gy/NknZrt.jpg)
+![Components3](../../assets/Features_images/Publish%20App/image3.png)
 
--   image
-
-3\. When ever it will take some time to fetch information from kubernetes
+4. When ever it will take some time to fetch information from kubernetes
 it will show as pending and status as success.
 
--   [*https://snag.gy/bN8uqA.jpg*](https://snag.gy/bN8uqA.jpg)
-
--   image
-
-
+![Components4](../../assets/Features_images/Publish%20App/image1.png)
