@@ -22,4 +22,10 @@ where the required installed plugin name is provided.
 
 **Screenshots:**
 
+![Components 1](../../assets/Features_images/Dynamic%20Plugin%20Initialization/image1.png)
 
+
+![Components 2](../../assets/Features_images/Dynamic%20Plugin%20Initialization/image2.png)
+
+
+![Components 3](../../assets/Features_images/Dynamic%20Plugin%20Initialization/image3.png)
