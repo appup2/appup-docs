@@ -37,3 +37,29 @@ the response from rest url to overcome Timeout exception.
 Please check the below screenshots for reference.
 
 
+![Components1](../../../assets/Features_images/Rest%20Binary%20Node/image1.png)
+
+
+![Components2](../../../assets/Features_images/Rest%20Binary%20Node/image2.png)
+
+
+![Components3](../../../assets/Features_images/Rest%20Binary%20Node/image3.png)
+
+
+![Components4](../../../assets/Features_images/Rest%20Binary%20Node/image4.png)
+
+
+![Components5](../../../assets/Features_images/Rest%20Binary%20Node/image5.png)
+
+
+![Components6](../../../assets/Features_images/Rest%20Binary%20Node/image6.png)
+
+
+![Components7](../../../assets/Features_images/Rest%20Binary%20Node/image7.png)
+
+
+![Components8](../../../assets/Features_images/Rest%20Binary%20Node/image8.png)
+
+
+![Components9](../../../assets/Features_images/Rest%20Binary%20Node/image9.png)
+
