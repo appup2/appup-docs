@@ -17,19 +17,22 @@ header email node.
 From Name, From Email, To Email, Cc and Bcc, Reply To, Output Variable
 and Custom Headers.
 
-//image
+![Components1](../../../assets/Features_images/Sendgrid%20custom%20header/image8.png)
 
-//image
+
 
 Provide API key in Auth Info, Subject and text message in Body fields.
 
-//image
+![Components2](../../../assets/Features_images/Sendgrid%20custom%20header/image10.png)
+
 
 Give a Setvar for the Success and failure state of send grid custom
 header email, and connect it to the sendstep to receive the message in
 the browser.
 
-//image
+![Components3](../../../assets/Features_images/Sendgrid%20custom%20header/image7.png)
+
+
 
 **Test Scenarios for Trigger :**
 
@@ -37,7 +40,9 @@ We have to provide the following details in to the Rest trigger to
 execute workflow.
 
 Name, Assign to a Category, Method, Expression and What to Execute.
-//image
+
+
+![Components4](../../../assets/Features_images/Sendgrid%20custom%20header/image6.png)
 
 Publish the application and hit the cluster in the browser to receive
 the email with custom headers.
@@ -47,23 +52,30 @@ the email with custom headers.
 In s3 file download, we have to provide a File Name, Output Variable,
 Bucket Path and s3 plugin.
 
+
+![Components5](../../../assets/Features_images/Sendgrid%20custom%20header/image2.png)
+
 We have to provide the following details into the send grid custom
 header email node and add
 attachments.
-//image
+
+![Components6](../../../assets/Features_images/Sendgrid%20custom%20header/image5.png)
+
 
 From Name, From Email, To Email, Cc and Bcc, Reply To, Output Variable,
 Attachments and Custom Headers.
 
-//image
+![Components7](../../../assets/Features_images/Sendgrid%20custom%20header/image4.png)
 
-//image
+
 
 Give a Setvar for the Success and failure state of send grid custom
 header email, and connect it to the sendstep to receive the message in
 the browser.
 
-//image
+![Components8](../../../assets/Features_images/Sendgrid%20custom%20header/image1.png)
+
+
 
 **Test Scenarios for Trigger :**
 
@@ -72,6 +84,7 @@ execute workflow.
 
 Name, Assign to a Category, Method, Expression and What to Execute.
 
+![Components9](../../../assets/Features_images/Sendgrid%20custom%20header/image3.png)
 
 Publish the application and hit the cluster in the browser to receive
 the email with attachments using custom headers.
