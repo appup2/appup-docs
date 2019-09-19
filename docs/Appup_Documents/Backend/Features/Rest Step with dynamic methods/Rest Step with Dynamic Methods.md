@@ -14,4 +14,10 @@ provided.
 
 Please refer the screenshots for reference.
 
+![Components1](../../../assets/Features_images/Rest%20Step%20with%20dynamic%20methods/image1.png)
 
+
+![Components2](../../../assets/Features_images/Rest%20Step%20with%20dynamic%20methods/image2.png)
+
+
+![Components3](../../../assets/Features_images/Rest%20Step%20with%20dynamic%20methods/image3.png)
