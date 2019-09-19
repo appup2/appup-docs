@@ -16,7 +16,10 @@ hash mac algorithms which are used to authenticate it.
 
 Please check the below screenshots how to configure it.
 
-//images
+
+![Components1](../../../assets/Features_images/MessageDigestStep/HMAC%20Message%20Digest%20Step/image3.png)
+
+![Components2](../../../assets/Features_images/MessageDigestStep/HMAC%20Message%20Digest%20Step/image1.png))
 
 ***Hash Function Message Digest Step:***
 
@@ -32,7 +35,10 @@ uses only algorithm to authenticate.
 
 Please check the screenshots to configure the workflow
 
-//images
+![Components3](../../../assets/Features_images/MessageDigestStep/HMAC%20Message%20Digest%20Step/image4.png)
+
+
+![Components4](../../../assets/Features_images/MessageDigestStep/HMAC%20Message%20Digest%20Step/image2.png))
 
 Postman links:
 
