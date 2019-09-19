@@ -20,3 +20,11 @@ parameters.
 Please check the below screenshots for reference.
 
 
+![Components1](../../../assets/Features_images/SQL%20Invoke%20Stored%20Procedure%20with%20Parameters/image1.png)
+
+
+![Components2](../../../assets/Features_images/SQL%20Invoke%20Stored%20Procedure%20with%20Parameters/image2.png)
+
+
+
+![Components3](../../../assets/Features_images/SQL%20Invoke%20Stored%20Procedure%20with%20Parameters/image3.png)
