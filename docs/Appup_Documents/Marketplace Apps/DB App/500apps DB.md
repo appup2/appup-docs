@@ -68,8 +68,9 @@ as shown in below postman snapshot. The data is expected as JSON Array.
 
 Rest Call: https://dbapp.500apps.com/v1/ticket
 
-![](media/image81.png){width="6.5in"
-height="4.944444444444445in"}Returns
+![Components1](../../assets/Marketplace%20Apps%20Images/DB_App_images/a.png)
+
+Returns
 
 The response code is 200 OK. Currently the generated key of just one row
 is returned back by Appup. This needs to be corrected.
@@ -94,7 +95,7 @@ updated is mandatory too.
 
 Rest Call: “PUT”: “https://dbapp.appup.cloud/v1/ticket”
 
-![](media/image33.png){width="6.5in" height="2.3333333333333335in"}
+![Components2](../../assets/Marketplace%20Apps%20Images/DB_App_images/b.png)
 
 Returns
 
@@ -116,7 +117,7 @@ condition in where.
 Rest Call:
 https://dbapp.appup.cloud/v1/ticket?where=requester\_email='@krishna83601953'
 
-![](media/image64.png){width="6.5in" height="2.486111111111111in"}
+![Components3](../../assets/Marketplace%20Apps%20Images/DB_App_images/c.png)
 
 Returns
 
@@ -141,7 +142,8 @@ specified all the values for the specified ticket id would be retrieved
 
 Rest Call: https://kptickets.appup.cloud/v1/ticket
 
--   ![](media/image78.png){width="6.5in" height="3.5in"}
+![Components4](../../assets/Marketplace%20Apps%20Images/DB_App_images/d.png)
+
 
 Returns
 
@@ -197,7 +199,7 @@ Rest call: https://kptickets.appup.cloud/dbgenapp/db/ticket?where=
 group\_id is null and assignee\_id is not
 null&order\_by=assignee\_id&order by type=asc
 
-![](media/image83.png){width="6.5in" height="4.694444444444445in"}
+![Components5](../../assets/Marketplace%20Apps%20Images/DB_App_images/e.png)
 
 Returns
 
@@ -236,13 +238,14 @@ Let’s take an example where required to get the count of tickets from
 **ticket** table based on ticket status.
 
 Rest Call Notation:
-[*https://kptickets.appup.cloud/dbgenapp/v1/aggregate/ticket/count?aggregate\_field=id&fields=status&group\_by=status*](https://kptickets.appup.cloud/dbgenapp/db/aggregate/ticket/count?aggregate_field=id&fields=status&group_by=status)
+(https://kptickets.appup.cloud/dbgenapp/db/aggregate/ticket/count?aggregate_field=id&fields=status&group_by=status)
 
 https://kptickets.appup.cloud/v1/ticket
 
 The postman example is given here as reference.
 
-![](media/image80.png){width="6.5in" height="5.416666666666667in"}
+![Components6](../../assets/Marketplace%20Apps%20Images/DB_App_images/f.png)
+
 
 Returns
 
@@ -277,7 +280,7 @@ Let us see the example through postman
 
 **Rest call** : https://dbapp.500apps.com/v2/multi/ticket
 
-![](media/image44.png){width="6.5in" height="3.513888888888889in"}
+![Components7](../../assets/Marketplace%20Apps%20Images/DB_App_images/g.png)
 
 Upsert 
 =======
@@ -295,14 +298,15 @@ Trigger expression : /upsert/{table\_name}
 Method : POST
 
 Rest call : “POST”
-:”[*https://dbapp.500apps.com/v1/upsert/tag\_custom\_field*](https://dbapp.500apps.com/v1/upsert/tag_custom_field)”
+"(https://dbapp.500apps.com/v1/upsert/tag_custom_field)”
 
-![](media/image74.png){width="6.5in" height="3.111111111111111in"}
+![Components8](../../assets/Marketplace%20Apps%20Images/DB_App_images/h.png)
 
 Returns : If insertion is done,new generated key will display. When
 updation is done updated key will display.
 
-![](media/image27.png){width="6.5in" height="3.6527777777777777in"}
+![Components9](../../assets/Marketplace%20Apps%20Images/DB_App_images/i.png)
+
 
 Returns : if insertion is done,new generated key will display. When
 updation is done updated key will display.
@@ -336,9 +340,10 @@ In our example the contact\_id would be passed as part of JSON Array as
 shown in the POSTMAN example
 
 Rest
-call::[*https://dbapp.500apps.com/v2/tags/5/contact*](https://dbapp.500apps.com/v2/tags/5/contact)
+call:(https://dbapp.500apps.com/v2/tags/5/contact)
 
-![](media/image48.png){width="6.5in" height="2.736111111111111in"}
+![Components10](../../assets/Marketplace%20Apps%20Images/DB_App_images/j.png)
+
 
 Returns
 
@@ -362,7 +367,7 @@ separator when multiple ids
 
 REST Call: https://dbapp.500apps.com/v2/tags/5/contact?ids=2
 
-![](media/image40.png){width="6.5in" height="2.4166666666666665in"}
+![Components11](../../assets/Marketplace%20Apps%20Images/DB_App_images/k.png)
 
 Returns
 
@@ -393,7 +398,7 @@ Rest call :
 
 https://dbapp.500apps.com/v2/tags/contact?tag\_name=Team&fields=first\_name,last\_name,email&limit=6
 
-![](media/image67.png){width="6.5in" height="3.2916666666666665in"}
+![Components12](../../assets/Marketplace%20Apps%20Images/DB_App_images/l.png)
 
 Returns
 
@@ -547,7 +552,7 @@ request={
 
 Rest Call: https://kptickets.appup.cloud/dbgenapp/db/filter
 
-![](media/image82.png){width="6.5in" height="5.555555555555555in"}
+![Components13](../../assets/Marketplace%20Apps%20Images/DB_App_images/m.png)
 
 Returns
 
@@ -585,7 +590,7 @@ Method: POST
 Rest Call Notation:
 “POST”:”https://kptickets.appup.cloud/dbgenapp/sp/sectioninsert”
 
-![](media/image38.png){width="6.5in" height="2.7916666666666665in"}
+![Components14](../../assets/Marketplace%20Apps%20Images/DB_App_images/n.png)
 
 Returns
 
@@ -601,8 +606,9 @@ Method: POST
 Rest Call:”https://kptickets.appup.cloud/v1/sp/insertt?parameters=3,'tag
 test',24
 
-![](media/image25.png){width="6.5in" height="2.611111111111111in"}
-==================================================================
+
+![Components15](../../assets/Marketplace%20Apps%20Images/DB_App_images/o.png)
+
 
 Returns
 
@@ -642,7 +648,7 @@ Below Params are require:
 Rest call :
 “POST”:”/staging?file\_name=contacts\_sample.csv&fields\_terminated=,&enclosed=\\&lines\_terminated='\\\\n'&ignore\_rows=1&cols=\['first\_name','last\_name','default\_email','home\_email','work\_email','default\_phone','work\_phone','home\_phone','address','city','state','country','zip\_code','default\_website','website','skype\_name','twitter\_url','linkedin\_url','facebook\_url','custom1','custom2','custom3','custom4','tags','@manual\_tags','@tenant\_id'\]”
 
-![](media/image32.png){width="6.5in" height="2.1527777777777777in"}
+![Components16](../../assets/Marketplace%20Apps%20Images/DB_App_images/p.png)
 
  
 =
@@ -714,10 +720,12 @@ request={
 
 RestCall:”POST”: “https://kptickets.appup.cloud/v1/joins”
 
-![](media/image56.png){width="6.5in"
-height="2.638888888888889in"}Returns:
+![Components17](../../assets/Marketplace%20Apps%20Images/DB_App_images/q.png)
 
-![](media/image69.png){width="6.5in" height="3.4444444444444446in"}
+Returns:
+
+![Components18](../../assets/Marketplace%20Apps%20Images/DB_App_images/r.png)
+
 
 Left Join
 ---------
@@ -782,11 +790,13 @@ request={
 
 RestCall:”POST”: “https://kptickets.appup.cloud/v1/joins”
 
-![](media/image46.png){width="6.5in" height="2.5694444444444446in"}
+![Components19](../../assets/Marketplace%20Apps%20Images/DB_App_images/s.png)
+
 
 Returns:
 
-![](media/image20.png){width="6.5in" height="1.9305555555555556in"}
+![Components20](../../assets/Marketplace%20Apps%20Images/DB_App_images/t.png)
+
 
 Self Join
 ---------
@@ -846,11 +856,12 @@ request={
 
 RestCall:”POST”: “https://kptickets.appup.cloud/v1/joins”
 
-![](media/image51.png){width="6.5in" height="2.4166666666666665in"}
+![Components21](../../assets/Marketplace%20Apps%20Images/DB_App_images/u.png)
+
 
 Returns
 
-![](media/image60.png){width="6.5in" height="1.1527777777777777in"}
+![Components22](../../assets/Marketplace%20Apps%20Images/DB_App_images/v.png)
 
 Right Join
 ----------
@@ -913,7 +924,7 @@ Content-Type: Body
 
 Rest Call:”POST”:”https://kptickets.appup.cloud/v1/cf”
 
-![](media/image31.png){width="6.5in" height="3.1944444444444446in"}
+![Components23](../../assets/Marketplace%20Apps%20Images/DB_App_images/w.png)
 
 Returns
 
@@ -966,7 +977,7 @@ number
 
 RestCall:”POST”:”https://kptickets.appup.cloud/v1/cf/contact/11”
 
-![](media/image45.png){width="6.5in" height="3.5694444444444446in"}
+![Components24](../../assets/Marketplace%20Apps%20Images/DB_App_images/x.png)
 
 Returns
 
@@ -994,13 +1005,13 @@ The values has to be passed as part of request body.
 
 Rest Call:”PUT”:”https://kptickets.appup.cloud/dbgenapp/cf/contact/11”
 
-![](media/image65.png){width="6.5in" height="2.111111111111111in"}
+![Components25](../../assets/Marketplace%20Apps%20Images/DB_App_images/y.png)
 
 Returns
 
 The number of rows updated would be returned
 
-![](media/image35.png){width="6.5in" height="1.0416666666666667in"}
+![Components26](../../assets/Marketplace%20Apps%20Images/DB_App_images/z.png)
 
 **Remove a custom field (DELETE)**
 
@@ -1020,7 +1031,7 @@ Params: Entity Custom Field ID’s
 Rest
 Call:”DELETE”:”https://kptickets.appup.cloud/dbgenapp/custom\_field/contact/1”
 
-![](media/image62.png){width="6.5in" height="2.0277777777777777in"}
+![Components27](../../assets/Marketplace%20Apps%20Images/DB_App_images/za.png)
 
 Returns
 
@@ -1043,11 +1054,12 @@ Call:”GET”:”https://kptickets.appup.cloud/dbgenapp/custom\_field/ticket
 
 ?id=950&tenant\_id=53”
 
-![](media/image41.png){width="6.5in" height="1.6388888888888888in"}
+![Components28](../../assets/Marketplace%20Apps%20Images/DB_App_images/zb.png)
+
 
 Returns:
 
-![](media/image19.png){width="6.5in" height="1.2083333333333333in"}
+![Components29](../../assets/Marketplace%20Apps%20Images/DB_App_images/zc.png)
 
 **Retrieve all the data with a any entity(GET)**
 
@@ -1064,11 +1076,11 @@ Method: “GET”
 Rest
 Call:”https://kptickets.appup.cloud/dbgenapp/custom\_field/search/contact?entity\_fields=first\_name,last\_name&custom\_fields=description&where=first\_name='manasa'”
 
-![](media/image66.png){width="6.5in" height="1.7222222222222223in"}
+![Components30](../../assets/Marketplace%20Apps%20Images/DB_App_images/zd.png)
 
 Returns:
 
-![](media/image8.png){width="6.5in" height="1.4444444444444444in"}
+![Components31](../../assets/Marketplace%20Apps%20Images/DB_App_images/ze.png)
 
 Reports - Not yet started
 =========================
@@ -1099,7 +1111,7 @@ Pre-processing Steps:
 Step1: Need to create table “**domain\_default\_data**” with columns
 name,columns and fields.
 
-![](media/image39.png){width="6.5in" height="1.1388888888888888in"}
+![Components32](../../assets/Marketplace%20Apps%20Images/DB_App_images/zf.png)
 
 Names → Application related default tables
 
@@ -1117,8 +1129,7 @@ below
 
 Domain\_default\_data table:
 
-![](media/image9.png){width="5.364583333333333in"
-height="0.9166666666666666in"}
+![Components33](../../assets/Marketplace%20Apps%20Images/DB_App_images/zg.png)
 
 Step 2: Need to insert required rows in above tables with
 tenant\_id/domain\_id is ‘0’.
@@ -1160,8 +1171,8 @@ Method: POST
 Rest
 Call:”POST”:”https://kptickets.appup.cloud/dbgenapp/account\_signup/domain\_default\_data”
 
-![](media/image50.png){width="6.5in"
-height="2.6805555555555554in"}Returns
+![Components34](../../assets/Marketplace%20Apps%20Images/DB_App_images/zh.png)
+
 
 A 200 OK response code would be returned along with “insertion done
 success” with this message.
@@ -1185,11 +1196,11 @@ Setup for Activity
 Need to add new key “activity\_tables” in application properties
 settings like below screenshot.
 
-![](media/image36.png){width="6.5in" height="2.513888888888889in"}
+![Components35](../../assets/Marketplace%20Apps%20Images/DB_App_images/zi.png)
 
 Activity required tables to be added in value like below screenshot.
 
-![](media/image14.png){width="6.5in" height="4.347222222222222in"}
+![Components36](../../assets/Marketplace%20Apps%20Images/DB_App_images/zj.png)
 
 Next steps will be regular crud operations.
 
@@ -1207,32 +1218,34 @@ Setup for Version
 Need to add new key “version\_tables” in application properties settings
 like below screenshot.
 
-![](media/image36.png){width="6.5in" height="2.513888888888889in"}
+![Components37](../../assets/Marketplace%20Apps%20Images/DB_App_images/zi.png)
 
 Version is required tables to be added in value like below screenshot.
 
-![](media/image61.png){width="6.5in" height="3.888888888888889in"}
+![Components38](../../assets/Marketplace%20Apps%20Images/DB_App_images/zk.png)
+
 
 Trigger Expression:/v1/{table-name}
 
 Method: POST
 
 Rest
-Call:”[*https://kptickets.appup.cloud/dbgenapp*](https://kptickets.appup.cloud/dbgenapp/)/product”
+Call:(https://kptickets.appup.cloud/dbgenapp/)/product”
 
-![](media/image37.png){width="6.5in" height="2.4583333333333335in"}
+![Components38](../../assets/Marketplace%20Apps%20Images/DB_App_images/zl.png)
+
 
 Returns
 
-![](media/image30.png){width="6.5in" height="1.1388888888888888in"}
+![Components39](../../assets/Marketplace%20Apps%20Images/DB_App_images/zm.png)
 
 Product Table data
 
-![](media/image12.png){width="6.5in" height="2.6666666666666665in"}
+![Components40](../../assets/Marketplace%20Apps%20Images/DB_App_images/zn.png)
 
 Product\_version Data
 
-![](media/image26.png){width="6.5in" height="2.861111111111111in"}Update
+![Components41](../../assets/Marketplace%20Apps%20Images/DB_App_images/zo.png)
 
 Trigger Expression:/v1/{table-name} (\*\*\*This is temporary tigger in
 future trigger expression is /v1/{table-name}
@@ -1241,19 +1254,19 @@ Method: PUT
 
 Rest Call:”PUT”:”https://kptickets.appup.cloud/dbgenapp/product”
 
-![](media/image17.png){width="6.5in" height="2.5972222222222223in"}
+![Components42](../../assets/Marketplace%20Apps%20Images/DB_App_images/zp.png)
 
 Returns
 
-![](media/image54.png){width="6.5in" height="1.2777777777777777in"}
+![Components43](../../assets/Marketplace%20Apps%20Images/DB_App_images/zq.png)
 
 Product Table
 
-![](media/image70.png){width="6.5in" height="2.5972222222222223in"}
+![Components44](../../assets/Marketplace%20Apps%20Images/DB_App_images/zr.png)
 
 Product\_Version Data:
 
-![](media/image53.png){width="6.5in" height="2.9444444444444446in"}
+![Components45](../../assets/Marketplace%20Apps%20Images/DB_App_images/zs.png)
 
 Security - JWT 
 ===============
@@ -1267,7 +1280,7 @@ For configuration of domain\_id or tenant\_id, we need to add new
 variable in app properties, Please find below screenshot for your
 reference
 
-![](media/image28.png){width="6.5in" height="2.6944444444444446in"}
+![Components46](../../assets/Marketplace%20Apps%20Images/DB_App_images/zt.png)
 
 **Token Generation**
 
@@ -1280,11 +1293,11 @@ Method: GET
 
 RestCall:”GET”:”https://kptickets.appup.cloud/dbgenapp/jwt/user?email=simon.agilecrm@gmail.com”
 
-![](media/image7.png){width="6.5in" height="2.2222222222222223in"}
+![Components47](../../assets/Marketplace%20Apps%20Images/DB_App_images/zu.png)
 
 Returns:
 
-![](media/image6.png){width="6.5in" height="1.6388888888888888in"}
+![Components48](../../assets/Marketplace%20Apps%20Images/DB_App_images/zv.png)
 
 Insert table with JWT
 ---------------------
@@ -1310,10 +1323,13 @@ The postman example is given here as reference.
 
 RestCall:”POST”:”https://kptickets.appup.cloud/dbgenapp/db/ticket”
 
-![](media/image24.png){width="6.5in" height="2.111111111111111in"}JWT Filter
+
+![Components49](../../assets/Marketplace%20Apps%20Images/DB_App_images/zw.png)
+
+JWT Filter
 ----------------------------------------------------------------------------
 
-![](media/image23.png){width="6.5in" height="1.3472222222222223in"}
+![Components50](../../assets/Marketplace%20Apps%20Images/DB_App_images/zx.png)
 
 DESCRIBE 
 =========
@@ -1336,11 +1352,11 @@ values or not. Find below screenshot for your reference
 Rest
 Call:”GET”:”[*https://dbapp.appup.cloud/v1/desc/product*](https://dbapp.appup.cloud/v1/desc/product)”
 
-![](media/image1.png){width="6.5in" height="3.5555555555555554in"}
+![Components51](../../assets/Marketplace%20Apps%20Images/DB_App_images/zy.png)
 
 Result:
 
-![](media/image71.png){width="6.5in" height="2.4305555555555554in"}
+![Components52](../../assets/Marketplace%20Apps%20Images/DB_App_images/zz.png)
 
 Search in multiple entities
 ===========================
@@ -1361,11 +1377,11 @@ screenshot for your reference
 
 Rest call: “POST:https://dbapp.appup.cloud/v1/search”
 
-![](media/image5.png){width="6.5in" height="2.1805555555555554in"}
+![Components53](../../assets/Marketplace%20Apps%20Images/DB_App_images/zza.png)
 
 Result:
 
-![](media/image22.png){width="6.5in" height="3.1944444444444446in"}
+![Components54](../../assets/Marketplace%20Apps%20Images/DB_App_images/zzb.png)
 
 Conflict Check
 ==============
@@ -1383,7 +1399,7 @@ The required update values have to be passed as part of request body.
 
 Rest Call: “PUT:”https://dbapp.500apps.com/v1/cf-cks/pages/2/name/ab2”
 
-![](media/image16.png){width="6.5in" height="2.8333333333333335in"}
+![Components55](../../assets/Marketplace%20Apps%20Images/DB_App_images/zzc.png)
 
 Return: If field value matches “conflict” will come otherwise no. of
 records updated result will come.
@@ -1405,12 +1421,12 @@ name based on which you want to check at tenant level in value.
 
 a
 
-![](media/image79.png){width="6.5in" height="3.5in"}
+![Components56](../../assets/Marketplace%20Apps%20Images/DB_App_images/zzd.png)
 
 Rest Call:”GET”:”
-[*https://dbapp.500apps.com/v1/cks/tenant/ticket*](https://dbapp.500apps.com/v1/check/count/tenant/ticket)”
+(https://dbapp.500apps.com/v1/check/count/tenant/ticket)”
 
-![](media/image10.png){width="6.5in" height="2.736111111111111in"}
+![Components57](../../assets/Marketplace%20Apps%20Images/DB_App_images/zze.png)
 
 Returns:If the count is non-zero, it will return true else return false.
 
@@ -1419,12 +1435,12 @@ User Level
 Need to define **checks\_type** in application properties and set the
 column name based on which you want to check at user level in value.
 
-![](media/image77.png){width="6.5in" height="3.2222222222222223in"}
+![Components58](../../assets/Marketplace%20Apps%20Images/DB_App_images/zzf.png)
 
 Rest
 Call:”GET”:”[*https://dbapp.500apps.com/v1/cks/user/ticket*](https://dbapp.500apps.com/v1/check/count/user/ticket)”
 
-![](media/image55.png){width="6.5in" height="2.2777777777777777in"}
+![Components59](../../assets/Marketplace%20Apps%20Images/DB_App_images/zzg.png)
 
 Returns:If the count is non-zero, it will return true else return false.
 
@@ -1441,9 +1457,9 @@ If the JSON column contains multiple occurrences of the same string, we
 will use below rest call. Find below screen for your reference.
 
 Rest
-Call:GET:”[*https://dbapp.500apps.com/v1/json/search/filter?column\_name=conditions&search\_column=name*](https://dbapp.500apps.com/v1/jsonsearch/filter?column_name=conditions&search_column=name)”
+Call:GET:”(https://dbapp.500apps.com/v1/jsonsearch/filter?column_name=conditions&search_column=name)”
 
-![](media/image3.png){width="6.5in" height="2.388888888888889in"}
+![Components60](../../assets/Marketplace%20Apps%20Images/DB_App_images/zzh.png)
 
 Return:
 
@@ -1454,9 +1470,9 @@ If you require specified key in JSON document, we will use below rest
 call. Find below screen for your reference.
 
 Rest Call:GET:
-“[*https://dbapp.500apps.com/v1/jsonsearch/filter?column\_name=conditions&key\_name=query*](https://dbapp.500apps.com/v1/jsonsearch/filter?column_name=conditions&key_name=query)”
+“(https://dbapp.500apps.com/v1/jsonsearch/filter?column_name=conditions&key_name=query)”
 
-![](media/image58.png){width="6.5in" height="2.2083333333333335in"}
+![Components61](../../assets/Marketplace%20Apps%20Images/DB_App_images/zzi.png)
 
 Return:
 
@@ -1466,9 +1482,9 @@ If you require specific value in JSON document, we will use below rest
 call. Find below screen for your reference.
 
 Rest Call:GET:
-“[*https://dbapp.500apps.com/v1/jsonsearch/filter?column\_name=conditions&value=*](https://dbapp.500apps.com/v1/jsonsearch/filter?column_name=conditions&key_name=query)desc”
+“(https://dbapp.500apps.com/v1/jsonsearch/filter?column_name=conditions&key_name=query)desc”
 
-![](media/image29.png){width="6.5in" height="2.2222222222222223in"}
+![Components62](../../assets/Marketplace%20Apps%20Images/DB_App_images/zzj.png)
 
 Return:
 
@@ -1488,7 +1504,7 @@ Method: POST
 Rest Call:”POST”:
 “https://dbapp.500apps.com/v1/merge\_duplicates/ticket/email\_to”
 
-![](media/image57.png){width="6.5in" height="2.5555555555555554in"}
+![Components63](../../assets/Marketplace%20Apps%20Images/DB_App_images/zzk.png)
 
 Returns:
 
@@ -1516,16 +1532,16 @@ The post\_man example is given below for reference :
 
 Rest\_call:
 
-[***https://dbapp.500apps.com/locationapp/ip\_locations?ip=14.140.185.204***](https://dbapp.500apps.com/locationapp/ip_locations?ip=14.140.185.204)
+(https://dbapp.500apps.com/locationapp/ip_locations?ip=14.140.185.204)
 
-![](media/image76.png){width="6.5in" height="1.9305555555555556in"}
+![Components64](../../assets/Marketplace%20Apps%20Images/DB_App_images/zzl.png)
 
 Result :
 
 A 200 response code would be given back with the required attributes
 data as shown below :
 
-![](media/image75.png){width="6.5in" height="2.0in"}
+![Components65](../../assets/Marketplace%20Apps%20Images/DB_App_images/zzm.png)
 
 Email Reporting 
 ================
@@ -1540,8 +1556,7 @@ Trigger Expression:send/{id}
 
 Method:post
 
-![](media/image86.png){width="6.270833333333333in"
-height="3.5277777777777777in"}
+![Components66](../../assets/Marketplace%20Apps%20Images/DB_App_images/zzn.png)
 
 Here we can see in the screenshot if we give Trigger Expression be like
 send /1 the body.template.1 key value (mail testing) will append .if we
@@ -1549,7 +1564,7 @@ give send/2 the body.template.2 key value (mail testing again) will
 append to that corresponding email.
 
 Rest
-Call:[*https://dbapp.500apps.com/emailreporting/send/1*](https://dbapp.500apps.com/emailreporting/send/1)
+Call:(https://dbapp.500apps.com/emailreporting/send/1)
 
 Example:
 
@@ -1561,8 +1576,7 @@ is given here as reference.
 
 ￼
 
-![](media/image85.png){width="6.270833333333333in"
-height="3.9166666666666665in"}
+![Components67](../../assets/Marketplace%20Apps%20Images/DB_App_images/zzo.png)
 
 Returns: It returns mail sent successfully if we give correct email
 address else it returns fail to sent.
@@ -1587,7 +1601,7 @@ Need to pass token in headers.
 
 Returns:
 
-![](media/image59.png){width="6.5in" height="3.361111111111111in"}
+![Components68](../../assets/Marketplace%20Apps%20Images/DB_App_images/zzp.png)
 
 Query Builder From UI
 =====================
@@ -1646,7 +1660,7 @@ Here is the example how to specify inputs in postman:
 
 Please find below screenshot
 
-![](media/image18.png){width="6.5in" height="3.638888888888889in"}
+![Components69](../../assets/Marketplace%20Apps%20Images/DB_App_images/zzq.png)
 
 **Returns:**
 
@@ -1702,8 +1716,8 @@ You need to set the following in Application Properties:
 
 2\. Role and the role based dependency column over your schema.
 
-![](media/image11.png){width="6.494792213473316in"
-height="2.474206036745407in"}
+![Components70](../../assets/Marketplace%20Apps%20Images/DB_App_images/zzr.png)
+
 
 Here the properties
 
@@ -1719,8 +1733,7 @@ role filter will be appended to fetch the results.
 
 Let us see the postman collection as example :
 
-**API :**
-[***https://dbapp.500apps.com/dbgenapp/acls?preview=true***](https://dbapp.500apps.com/dbgenapp/acls?preview=true)
+**API :**(https://dbapp.500apps.com/dbgenapp/acls?preview=true)
 
 **Trigger Expression :** /acls
 
@@ -1732,19 +1745,18 @@ application level .
 
 **TOKEN**:
 
-![admin token.png](media/image72.png){width="7.03125in"
-height="0.8802088801399826in"}
+
 
 From token role and tenant\_id will be generated:
 
-![admin.query.PNG](media/image73.png){width="7.052385170603674in"
-height="3.1406255468066493in"}
+![Components71](../../assets/Marketplace%20Apps%20Images/DB_App_images/zzs.png)
+
 
 Data will be fetched based on that filter conditions seen in the above
 generated query:
 
-![admin\_data.PNG](media/image13.png){width="5.697916666666667in"
-height="2.6093755468066493in"}
+![Components72](../../assets/Marketplace%20Apps%20Images/DB_App_images/zzt.png)
+
 
 **Manager Level**: The manager can access with all the user ‘s
 data.There may be multiple departments or groups under the manager level
@@ -1752,37 +1764,31 @@ data.There may be multiple departments or groups under the manager level
 
 **TOKEN:**
 
-![manager.png](media/image52.png){width="6.927083333333333in"
-height="0.7968755468066492in"}
 
 From token role,tenant\_id and group\_id will be generated:
 
-![manager\_query.PNG](media/image42.png){width="5.588542213473316in"
-height="2.21875in"}
+![Components73](../../assets/Marketplace%20Apps%20Images/DB_App_images/zzu.png)
 
 Data will be fetched based on the filter conditions and seen in the
 above query:
 
-![manager\_data.PNG](media/image21.png){width="5.502232064741907in"
-height="2.5677088801399823in"}
+![Components74](../../assets/Marketplace%20Apps%20Images/DB_App_images/zzv.png)
 
 **User Level :** User can have access over his respective data only .
 
 **TOKEN:**
 
-![USER.png](media/image2.png){width="6.791666666666667in"
-height="0.8593755468066492in"}
+
 
 From token role,tenant\_id and user\_id will be generated:
 
-![user\_query.PNG](media/image63.png){width="5.664861111111111in"
-height="2.932292213473316in"}
+![Components75](../../assets/Marketplace%20Apps%20Images/DB_App_images/zzw.png)
 
 Data will be fetched based on the filter conditions appended in the
 above seen query :
 
-![user\_data.PNG](media/image34.png){width="5.276042213473316in"
-height="2.9762281277340334in"}
+![Components76](../../assets/Marketplace%20Apps%20Images/DB_App_images/zzx.png)
+
 
 As of now these are the three admin , user , manager levels scenario
 which can be achieved through appup .
@@ -1810,7 +1816,8 @@ dynamically in rest call. In every scenario , id must be unique.
 Sum of the example’s (i.e,custom queries) which are added in Application
 properties.
 
-![](media/image47.png){width="6.5in" height="3.6527777777777777in"}
+![Components77](../../assets/Marketplace%20Apps%20Images/DB_App_images/zzy.png)
+
 
 TriggerExpression: /select/cq/{custom.query.value}
 
@@ -1828,11 +1835,11 @@ https://dbapp.500apps.com/v1/select/cq/5?created\_date=2018-12-14
 
 https://dbapp.500apps.com/v1/select/cq/10?json\_value=incident
 
-![](media/image43.png){width="6.5in" height="2.375in"}
+![Components78](../../assets/Marketplace%20Apps%20Images/DB_App_images/zzz.png)
 
 https://dbapp.500apps.com/v1/select/cq/11?boolean\_value=1
 
-![](media/image68.png){width="6.5in" height="3.1527777777777777in"}
+![Components79](../../assets/Marketplace%20Apps%20Images/DB_App_images/zzza.png)
 
 Trigger Expression: /insert/cq/{custom.query.value}
 
@@ -1842,7 +1849,7 @@ Method: **post**
 
 https://dbapp.500apps.com/dbgenapp/insert/cq/6
 
-![](media/image15.png){width="6.5in" height="2.9722222222222223in"}
+![Components80](../../assets/Marketplace%20Apps%20Images/DB_App_images/zzzb.png)
 
 TriggerExpression: /update/cq/{custom.query.value}
 
@@ -1850,7 +1857,7 @@ Method: **post**
 
 Rest call:https://dbapp.500apps.com/dbgenapp/update/cq/7
 
-![](media/image49.png){width="6.5in" height="3.0972222222222223in"}
+![Components81](../../assets/Marketplace%20Apps%20Images/DB_App_images/zzzc.png)
 
 TriggerExpression: /delete/cq/{custom.query.value}
 
@@ -1858,7 +1865,7 @@ Method: **post**
 
 Rest call:https://dbapp.500apps.com/dbgenapp/delete/cq/8
 
-![](media/image4.png){width="6.5in" height="3.0in"}
+![Components82](../../assets/Marketplace%20Apps%20Images/DB_App_images/zzzd.png)
 
 Regular Expressions 
 ====================
@@ -1931,10 +1938,9 @@ Data Model:
 
 Rest call:
 
-[*https://dbapp.500apps.com/v1/filters*](https://dbapp.500apps.com/v1/filters)
+(https://dbapp.500apps.com/v1/filters)
 
-![](media/image87.png){width="5.166666666666667in"
-height="3.4479166666666665in"}
+![Components83](../../assets/Marketplace%20Apps%20Images/DB_App_images/zzze.png)
 
 Multi Table Delete
 ==================
@@ -2037,4 +2043,4 @@ Body:
 
 Rest call: https://dbapp.500apps.com/v1/multid
 
-![](media/image84.png){width="6.5in" height="3.1944444444444446in"}
+![Components84](../../assets/Marketplace%20Apps%20Images/DB_App_images/zzzf.png)
